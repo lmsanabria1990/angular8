@@ -1,0 +1,8 @@
+<mat-toolbar [ngClass]="'header'">
+  <button mat-icon-button *ngIf="showBack" [routerLink]="['/']">
+    <mat-icon>keyboard_arrow_left</mat-icon>
+    Back
+  </button>
+  <span class="center">Home</span>
+</mat-toolbar>
+<router-outlet></router-outlet>

@@ -1,0 +1,8 @@
+<mat-card *ngIf="person" class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar><img mat-card-avatar src="{{person.avatar_url}}" alt="User Avatar">
+    </div>
+    <mat-card-title>{{person.name}}</mat-card-title>
+    <mat-card-subtitle>{{person.location}}</mat-card-subtitle>
+  </mat-card-header>
+</mat-card>

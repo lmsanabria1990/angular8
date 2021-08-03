@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>Top 5 GitHub Users</h1>
+  <p>Tap the username to see more information</p>
+  <div class="persons">
+    <div class="button-row">
+      <button mat-raised-button color="primary" *ngFor="let person of persons" [routerLink]="['person', person.id]">User #{{person.id}}</button>
+    </div>
+  </div>
+</div>
+
